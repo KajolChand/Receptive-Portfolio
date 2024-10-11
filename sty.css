@@ -163,6 +163,7 @@ h3 {
 }
 
 .btn-default {
+    border: none;
     color: #fff;
     vertical-align: middle;
     display: inline-block;
@@ -625,7 +626,7 @@ h3 {
     height: 100%;
     padding: 1rem 1rem 1rem 0;
     background: none;
-    color: #fff;
+    color: black;
     outline: none;
     border: none;
     z-index: 1;

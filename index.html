@@ -63,12 +63,12 @@
                     <img src="assets/img/avatar-1.svg" alt="Kajol">
                     <!-----info----->
                     <h1>Kajol Chand S</h1>
-                    <span>I'm a<span class="info-text"> Front-End Developer </span></span>
+                    <span>I'm a<span class="info-text"> Data Analyst </span></span>
                     <!-----socialicons----->
                     <ul class="social-icons">
                         <li><a href="https://www.instagram.com/_kajol_chand_/" target="_blank"><i class="lni lni-instagram-original"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/kajol-chand123" target="_blank"><i class="lni lni-linkedin-original"></i></i></a></li>
-                        <li><a href=#><i class="lni lni-twitter-original"></i></a></li>
+                       
                         <li><a href="https://github.com/KajolChand" target="_blank"><i class="lni lni-github-original"></i></a></li>
                         <li><a href="https://leetcode.com/KajolChand/" target="_blank"><i class="lni lni-code"></i></a></li>
                     </ul>
@@ -106,9 +106,7 @@
 
                                 <div class="about-text padd-15">
                                     <!--about text-->
-                                    <p>I am Kajol Chand , a Front-End Developer and a technical Enthusiast.<br>
-                                        One of my greatest strength lies in my confident Communication skill,<br>
-                                        Team management and in different Array of programming languages.</p>
+                                    <p>I am a  developer with a growing interest in data analytics. With hands-on experience in Data analysis, frontend and web development. Currently working on an innovative mobile app, focusing on improving its features and functionality.</p>
                                     <div>
                                         <a href="https://drive.google.com/file/d/10-AnCchRMnaIgkplnrTtzFhFvRcBFOcE/view?usp=sharing" class="btn btn-default" target="_blank" download>Download CV</a>
                                     </div>
@@ -118,7 +116,7 @@
                                     <div class="row">
                                         <!--skill item-->
                                         <div class="skill-item">
-                                            <h4>Development</h4>
+                                            <h4>sql</h4>
                                             <div class="progress">
                                                 <div class="progress-in"
                                                     style="width: 70%; background: rgb(255,209,92);">
@@ -138,7 +136,17 @@
                                         </div>
                                         <!--skill item-->
                                         <div class="skill-item">
-                                            <h4>Codepen</h4>
+                                            <h4>R</h4>
+                                            <div class="progress">
+                                                <div class="progress-in"
+                                                    style="width: 60%; background: rgb(255,209,92);">
+                                                </div>
+                                                <div class="skill-percent">60%</div>
+                                            </div>
+                                        </div>
+                                        <!--skill item-->
+                                        <div class="skill-item">
+                                            <h4>Excel</h4>
                                             <div class="progress">
                                                 <div class="progress-in"
                                                     style="width: 50%; background: rgb(255,209,92);">
@@ -358,29 +366,30 @@
                         </div>
                     </div>
                     <!--contact form-->
-                    <form action="" class="contact-from padd-15">
+                    <form action="https://formspree.io/f/mzzbbpeo" method="POST" class="contact-form padd-15">
                         <div class="contact-inputs">
-                            <!--contact content-->
+                            <!-- contact content -->
                             <div class="contact-content">
-                                <input type="email" class="contact-input">
+                                <input type="email" name="email" class="contact-input" required>
                                 <label for="" class="contact-label">Email</label>
                                 <span></span>
                             </div>
-                            <!--contact content-->
+                            <!-- contact content -->
                             <div class="contact-content">
-                                <input type="text" class="contact-input">
+                                <input type="text" name="subject" class="contact-input" required>
                                 <label for="" class="contact-label">Subject</label>
                                 <span></span>
                             </div>
-                            <!--contact content-->
-                            <div class="contact-content contact-area ">
-                                <textarea name="" id="" cols="30" rows="10" class="contact-input"></textarea>
+                            <!-- contact content -->
+                            <div class="contact-content contact-area">
+                                <textarea name="message" cols="30" rows="10" class="contact-input" required></textarea>
                                 <label for="" class="contact-label">Message</label>
                                 <span></span>
                             </div>
                         </div>
-                        <a href="#" class="btn btn-default">Send Mesaage</a>
+                        <button type="submit" class="btn btn-default">Send Message</button>
                     </form>
+                    
                 </div>
             </div>
         </section>
